@@ -1,0 +1,36 @@
+html {
+    background: rgba(252, 231, 231, 0.534);
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vw;
+    margin: 50px;
+    background-color: rgb(219, 16, 16);
+    min-height: 600px;
+    min-width: 600px;
+    max-width: 800px;
+    max-height: 800px;
+
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+.grid {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(243, 243, 243);
+}
+
