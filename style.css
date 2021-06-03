@@ -11,7 +11,7 @@ main {
     justify-content: center;
 }
 
-.container {
+.bezel {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +29,12 @@ main {
 }
 
 .grid {
+    display: flex;
     width: 80%;
     height: 80%;
     background-color: rgb(243, 243, 243);
 }
 
+.pixel:focus {
+    background: black;
+}
