@@ -8,7 +8,12 @@ header {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    outline: none;
 }
 
 .bezel {
@@ -17,7 +22,7 @@ main {
     align-items: center;
     width: 50vw;
     height: 50vw;
-    margin: 50px;
+    margin: 10px 0;
     background-color: rgb(219, 16, 16);
     min-height: 600px;
     min-width: 600px;
@@ -28,13 +33,13 @@ main {
     border-radius: 40px;
 }
 
+div {
+    border: 0 solid rgba(0, 0, 0, 0.233);
+}
+
 .grid {
-    display: flex;
+    display: grid;
     width: 80%;
     height: 80%;
     background-color: rgb(243, 243, 243);
-}
-
-.pixel:focus {
-    background: black;
 }
