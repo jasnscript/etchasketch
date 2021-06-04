@@ -87,6 +87,7 @@ function clearGrid() {
     const pixel = document.querySelectorAll('.pixel');
     pixel.forEach((one) => {
         one.style.backgroundColor = 'transparent';
+        one.style.opacity = '';
     })
 }
 
